@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+ font-size: 16px;
+}
+
+aside {
+    margin-right: 55px;
+}
+
+body{
+    background-color: #22212C;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    color: #837E9F;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 0.9em;
+    display: grid;
+    grid-template-areas: 
+        "aside main"
+        "footer footer";
+    grid-template-columns: 30% 1fr;
+}
+
+article {
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+}
+
+.Estilo-seçoes{
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 18px;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 3px #16151b;
+}
+
+.Fonte400 {
+    font-size: smaller;
+    font-weight: 400;
+}
+
+.LinhaContatos {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#tecnologias {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 15px 6px;
+}
+
+.Tech {
+    background-color: #CB92B1;
+    border-radius: 15px;
+    color: #000000;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px 3px;
+    width: 90px;
+    font-weight: 700;
+}
+
+#contatos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 300px;
+    padding-left: 35px;
+}
+
+#meusProjetos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#repositorios {
+    display: flex;
+    gap: 15px;
+}
+
+#legendaJS {
+    position: relative;
+    left: 180px;
+}
+
+#elipse {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    left: 150px;
+    top: 15px;
+    background: #E7DE79;
+    border: 2px solid ;
+    border-radius: 50%;
+}
+
+.svg-icon {
+    filter: invert(58%) sepia(3%) saturate(2445%) hue-rotate(209deg) brightness(87%) contrast(99%);
+}
+
+.InfoRepositorio {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+#perfil {
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+#fotoPrincipal{
+    margin: 10px auto 20px auto;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    box-shadow: 0px 0px 0px 2px #00FF00;
+    width: 110px;
+}
+
+#fotoArtigo{
+    border-radius: 15%;
+    border: 4px solid transparent;
+    width: 110px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #837E9F;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #837E9F;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #CB92B1;
+}
+
+a:active {
+  text-decoration: none;
+}
+  
+
+ul {
+    list-style-position: inside;
+    margin-left: 20px;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+}
+
+
